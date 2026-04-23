@@ -1,0 +1,14 @@
+name: My github actions
+on:
+  push:
+    branches:
+      main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Github action 
+      run: echo "learning github action"
+    
